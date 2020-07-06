@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://images.pexels.com/photos/1420440/pexels-photo-1420440.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+}
+
+
+form {
+    background-color: lightgray;
+    margin-left: 220px;
+    margin-right: 220px;
+    height:700px;
+}
+
+/* .center{
+    text-align: center;
+} */
+form label{
+   margin-top: 10px; 
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: start;
+    margin-left:40px;
+}
+
+form input{
+    /* display : block; */
+    /* margin-top: 10px; */
+}
