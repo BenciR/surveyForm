@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform </p>
+        
+        <form action="" id="survey-form">
+            <label for="namer" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="name" required>
+
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" name="email" placeholder="e-mail" required>
+
+            <label for="number" id="number-label">Age</label>
+            <input type="number" name="age" min="10" max="99" id="number" placeholder="number">
+            
+            <select name="" id="dropdown">
+                <option disabled="" selected="" value="">Select current role</option>
+                <option value="student">Student</option>
+                <option value="fulltime">Full Time Job</option>
+                <option value="parttime">Part Time Job</option>
+            </select>
+
+            <div id="radioBtn">
+                <p id="radioBtn_title">Would you recomment FreeCodeCamp?</p>
+
+                <label for="" name="recommendation">
+                    <input type="radio" checked="" value="Definetly">
+                    Definetly
+                </label>
+
+                <label for="" name="recommendation">
+                    <input type="radio" checked="" value="Maybe">
+                    Maybe
+                </label>
+
+                <label for="" name="recommendation">
+                    <input type="radio" checked="" value="Not sure">
+                    Not sure
+                </label>
+            </div>
+
+            <div id="checkBox">
+                <p id="checkBox_title">What would you like to see improve?</p>
+                <label>
+                    <input type="checkbox" name="improve" value="front-end">
+                    Front-End Projects
+                </label>
+
+                <label>
+                    <input type="checkbox" name="improve" value="back-end">
+                    Back-End Projects
+                </label>
+
+                <label>
+                    <input type="checkbox" name="improve" value="data visualization">
+                    Data visualization
+                </label>
+
+                <label>
+                    <input type="checkbox" name="improve" value="challenges">
+                    Challenges
+                </label>
+
+                <label>
+                    <input type="checkbox" name="improve" value="videos">
+                    Videos
+                </label>
+            </div>
+
+            <textarea name="textarea" id="comments" cols="30" rows="10" placeholder="Enter your text here">
+
+            </textarea>
+
+            
+            <button id="submit" type="submit">Submit</button>
+        
+        </form>
+    
+    </body>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
